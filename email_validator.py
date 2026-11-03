@@ -1,4 +1,4 @@
-class Email:
+class Email_Validator:
 
     def Setemail(self):
         self.email = input("Enter email : ")    # g@g.in or gamer@gmail.com
@@ -30,6 +30,6 @@ class Email:
         else:
             print("Invalid email")
 
-obj = Email()
+obj = Email_Validator()
 obj.Setemail()
 obj.chk_email()
